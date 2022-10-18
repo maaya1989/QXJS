@@ -15,7 +15,7 @@
  Widgetsmith、vision、Percento、Airmail、Usage、Spark、Pdf Viewer、谜底黑胶
  [rewrite_local]
  # ～ RevenueCat（2022-10-12）@ddgksf2013
- ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$)  url script-echo-response ShadowPro.js
+ ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$)  url script-echo-response RevenueCat.js
  [mitm]
  hostname=api.revenuecat.com
  ***********************************/
