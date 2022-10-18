@@ -19,7 +19,7 @@
  [rewrite_local]
 
  # ～ RevenueCat（2022-10-12）@ddgksf2013
- ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://github.com/maaya1989/QXJS/raw/master/revenuecat.js
+ ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-echo-response https://github.com/maaya1989/QXJS/master/revenuecat.js
 
  [mitm]
 
