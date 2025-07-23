@@ -1,4 +1,4 @@
-body = $response.body.replace(/while.{1}\n/, "");
+body = $response.body.replace(/while.{7}\n/, "");
 let obj = JSON.parse(body);
 obj.entitlement.status="subscriber";
 obj.current_subs={
@@ -14,7 +14,7 @@ obj.current_subs={
         "inpkg_LPES": "0",
         "inpkg_LRBRL": "0",
         "inpkg_LRMAC": "0",
-        "inpkg_LRMC": "0",
+        "inpkg_LRMC": "1",
         "inpkg_LRMP": "0",
         "inpkg_LRTB": "0",
         "inpkg_PHLT": "0",
