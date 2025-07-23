@@ -1,11 +1,10 @@
 #!name=LightRoom
 #!desc=Adobe LightRoom解锁
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/lightroom.png
-#!homepage=https://yfamily.ml
-#!author=I-am-R-E
+#!author=maaya
 
 [MITM]
 hostname=photos.adobe.io
 
 [Script]
-http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
+http-response ^https:\/\/photos\.adobe\.io\/v2\/accounts* requires-body=1,script-path=https://raw.githubusercontent.com/maaya1989/QXJS/refs/heads/master/lightroom.js
